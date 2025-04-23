@@ -85,7 +85,7 @@ def segment_image(img_path, filters, n_clusters=3):
 
     # Salva imagem segmentada
     base = os.path.basename(img_path)
-    nome_saida = f"segmentado_{os.path.splitext(base)[0]}.jpg"
+    nome_saida = f"{os.path.splitext(base)[0]}.jpg"
     cv2.imwrite(os.path.join("content/segmentadas", nome_saida), segmented_color)
 
 # Função principal que processa a pasta de imagens
