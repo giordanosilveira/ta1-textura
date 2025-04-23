@@ -25,5 +25,68 @@ Este projeto tem como objetivo segmentar imagens com base em **texturas**, utili
 
 ---
 
-## 🗂 Estrutura do Projeto
+## 🗂 Estrutura do Projeto 
+
+```plain text
+├── .gitignore
+├── README.md
+├── content
+    ├── imagens_urbanas
+    │   ├── 2017-10-27-06-39-01.jpg
+    │   ├── 62cfb95587db43b5e78992f89ff165b2.jpg
+    │   ├── 898ea2324d613bf3858c613315937fc8.jpg
+    │   ├── 9708454329bd7f8b9777624bcfee6d5f.jpg
+    │   ├── Casas-grandes-edifícios-pontes-viadutos-são-alguns-dos-elementos-que-compõem-a-paisagem-urbana.-Fonte-Pixabay.jpg
+    │   ├── Rurik-1090-1280x720.jpg
+    │   ├── a-paisagem-urbana-e-a-matematica-da-cidade_1.jpg
+    │   ├── a3da7f1406e9f211a10223edbac0cc6c.jpg
+    │   ├── buildings-7109918_1280.jpg
+    │   ├── istockphoto-1406960186-612x612.jpg
+    │   ├── paisagem-urbana.jpg
+    │   ├── paisagem-urbana_405233185-scaled.jpg
+    │   ├── pexels-photo-2299949.jpeg
+    │   ├── photo-1480714378408-67cf0d13bc1b.jpeg
+    │   ├── pngtree-cityscape-charm-a-tale-of-towers-image_15865523.jpg
+    │   └── pngtree-new-york-city-manhattan-downtown-skyline-cityscape-evening-landmark-photo-image_24249822.jpg
+    └── segmentadas
+    │   ├── segmentado_2017-10-27-06-39-01.jpg
+    │   ├── segmentado_62cfb95587db43b5e78992f89ff165b2.jpg
+    │   ├── segmentado_898ea2324d613bf3858c613315937fc8.jpg
+    │   ├── segmentado_9708454329bd7f8b9777624bcfee6d5f.jpg
+    │   ├── segmentado_Casas-grandes-edifícios-pontes-viadutos-são-alguns-dos-elementos-que-compõem-a-paisagem-urbana.-Fonte-Pixabay.jpg
+    │   ├── segmentado_Rurik-1090-1280x720.jpg
+    │   ├── segmentado_a-paisagem-urbana-e-a-matematica-da-cidade_1.jpg
+    │   ├── segmentado_a3da7f1406e9f211a10223edbac0cc6c.jpg
+    │   ├── segmentado_buildings-7109918_1280.jpg
+    │   ├── segmentado_istockphoto-1406960186-612x612.jpg
+    │   ├── segmentado_paisagem-urbana.jpg
+    │   ├── segmentado_paisagem-urbana_405233185-scaled.jpg
+    │   ├── segmentado_pexels-photo-2299949.jpg
+    │   ├── segmentado_photo-1480714378408-67cf0d13bc1b.jpg
+    │   ├── segmentado_pngtree-cityscape-charm-a-tale-of-towers-image_15865523.jpg
+    │   └── segmentado_pngtree-new-york-city-manhattan-downtown-skyline-cityscape-evening-landmark-photo-image_24249822.jpg
+└── main.py
+```
+
+## 📑 Como executar
+
+1. Crie um ambiente virtual
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+```
+2. Instale os recursos necessários
+```bash
+pip install -r requirements.txt
+```
+3. Execute o script
+```
+python main.py
+```
+
+## 📁 Output
+Tanto o input usado, quanto o resultado estão na pasta `content`. 
+
+As imagens usadas estão na pasta `imagens_urbanas` e as imagens segmentadas, resultados da execução do script, estão na pasta `segmentadas`. 
+Para comparar as imagens, veja o nome da imagem original na pasta `imagens_urbanas` e procure o mesmo nome na pasta `segmentadas`
+
 
