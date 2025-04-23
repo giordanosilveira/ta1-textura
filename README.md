@@ -69,16 +69,25 @@ Este projeto tem como objetivo segmentar imagens com base em **texturas**, utili
 ```
 
 ## 📑 Como executar
+1. Clone o repositório:
+```bash
+git clone https://github.com/giordanosilveira/ta1-textura.git 
+```
 
-1. Crie um ambiente virtual
+2. Entre no repositório
+```bash
+cd ta1-textura 
+```
+
+3. Crie um ambiente virtual
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 ```
-2. Instale os recursos necessários
+4. Instale os recursos necessários
 ```bash
 pip install -r requirements.txt
 ```
-3. Execute o script
+5. Execute o script
 ```
 python main.py
 ```
